@@ -51,7 +51,7 @@ function setup() {
   let right = keyboard("ArrowRight");
   right.press = () => {
     message.setText("右やじるしをおされると、左に移動しちゃうのん！")
-    renge.x 
+    renge.x = 0
   }
 }
 
